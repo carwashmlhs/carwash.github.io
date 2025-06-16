@@ -1,11 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Bienvenue sur mon site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Car Wash MLHS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .hero {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #2ecc71;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #27ae60;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .avis {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .avis div {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .avis {
+        flex-direction: row;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Bonjour, je m'appelle Emma</h1>
-  <p>Voici mon premier site hébergé gratuitement avec GitHub Pages ! 🚀</p>
+
+  <header>
+    <h1>Car Wash MLHS</h1>
+    <p>Votre voiture mérite le meilleur 🚗✨</p>
+  </header>
+
+  <section class="hero">
+    <p>Nettoyage professionnel, rapide et soigné de votre véhicule.  
+    Disponible 7j/7. Suivez-nous sur les réseaux pour voir nos réalisations !</p>
+    <a class="btn" href="mailto:cashwashmlhs@gmail.com">📩 Nous contacter</a>
+  </section>
+
+  <section class="section">
+    <h2>🗣 Avis clients</h2>
+    <div class="avis">
+      <div><strong>Thomas :</strong> Service impeccable, voiture comme neuve !</div>
+      <div><strong>Sofia :</strong> Très pro et rapide, je recommande à 100%.</div>
+      <div><strong>Yanis :</strong> Le meilleur car wash du coin, rien à dire !</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📲 Retrouvez-nous : <strong>@carwash.mlhs</strong> sur tous les réseaux</p>
+    <p>© 2025 Car Wash MLHS</p>
+  </footer>
+
 </body>
 </html>
